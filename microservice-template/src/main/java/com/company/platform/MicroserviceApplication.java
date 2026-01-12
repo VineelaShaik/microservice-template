@@ -1,13 +1,13 @@
-package com.company.microservice_template;
+package com.company.platform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroserviceTemplateApplication {
+public class MicroserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroserviceTemplateApplication.class, args);
+		SpringApplication.run(MicroserviceApplication.class, args);
 	}
 
 }
