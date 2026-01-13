@@ -3,6 +3,9 @@ package com.company.platform.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;
+import com.company.platform.security.JwtAuthenticationEntryPoint;
+import com.company.platform.security.JwtAuthenticationFilter;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -28,6 +31,9 @@ public class SecurityConfig {
             .formLogin(form -> form.disable())
 
             .httpBasic(basic -> basic.disable())
+            .exceptionHandling(ex ->
+            ex.authenticationEntryPoint(new JwtAuthenticationEntryPoint())
+             )
 
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers(
@@ -35,6 +41,11 @@ public class SecurityConfig {
                     "/actuator/info"
                 ).permitAll()
                 .anyRequest().authenticated()
+                
+            )
+            .addFilterBefore(
+                new JwtAuthenticationFilter(),
+                UsernamePasswordAuthenticationFilter.class
             );
 
         return http.build();
