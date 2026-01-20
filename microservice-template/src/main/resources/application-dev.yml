@@ -1,0 +1,23 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+  jmx:
+    enabled: false
+
+logging:
+  level:
+    root: DEBUG
+    org.springframework.web: DEBUG
+    javax.management: OFF
+    sun.rmi: OFF
+    org.springframework.boot.actuate.endpoint.jmx: OFF
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always

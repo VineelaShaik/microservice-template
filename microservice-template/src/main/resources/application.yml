@@ -1,6 +1,10 @@
 spring:
   application:
     name: microservice-template
+  profiles:
+    active: dev
+  jmx:
+    enabled: false
 
 server:
   port: 8080
@@ -14,11 +18,12 @@ management:
   endpoint:
     health:
       show-details: never
-    probes:
-      enabled: true
-
-  health:
-    livenessstate:
-      enabled: true
-    readinessstate:
-      enabled: true
+logging:
+  level:
+    root: INFO
+    '[org.springframework.boot.autoconfigure]': INFO
+    javax.management: OFF
+    sun.rmi: OFF
+    org.springframework.boot.actuate.endpoint.jmx: OFF
+jmx:
+    enabled: false

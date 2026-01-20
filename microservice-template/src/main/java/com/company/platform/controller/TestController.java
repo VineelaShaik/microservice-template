@@ -7,7 +7,7 @@ import com.company.platform.exception.ApiException;
 
 @RestController
 public class TestController {
-
+    
     @GetMapping("/api/test")
     public String test() {
         return "JWT OK";

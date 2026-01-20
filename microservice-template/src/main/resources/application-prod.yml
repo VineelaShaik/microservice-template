@@ -1,0 +1,25 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+  jmx:
+    enabled: false
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: WARN
+    javax.management: OFF
+    sun.rmi: OFF
+    org.springframework.boot.actuate.endpoint.jmx: OFF
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: never
+
+
