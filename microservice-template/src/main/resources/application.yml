@@ -42,3 +42,14 @@ logging:
     org.springframework.boot.actuate.endpoint.jmx: OFF
 jmx:
     enabled: false
+sample:
+  service:
+    url: http://localhost:9999  
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 3000
+        readTimeout: 5000
+        loggerLevel: BASIC
