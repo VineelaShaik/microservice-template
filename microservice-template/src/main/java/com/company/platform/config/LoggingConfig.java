@@ -12,7 +12,7 @@ public class LoggingConfig {
     public FilterRegistrationBean<LoggingFilter> loggingFilter() {
         FilterRegistrationBean<LoggingFilter> registration = new FilterRegistrationBean<>();
         registration.setFilter(new LoggingFilter());
-        registration.setOrder(1); // runs early
+        registration.setOrder(1); 
         return registration;
     }
 }
