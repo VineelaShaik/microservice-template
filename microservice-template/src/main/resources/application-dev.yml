@@ -4,10 +4,12 @@ spring:
       on-profile: dev
   jmx:
     enabled: false
+  datasource:
+    enabled: false
 
 logging:
   level:
-    root: DEBUG
+    com.company: DEBUG
     org.springframework.web: DEBUG
     javax.management: OFF
     sun.rmi: OFF

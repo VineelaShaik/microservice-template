@@ -8,6 +8,7 @@ spring:
 logging:
   level:
     root: INFO
+    com.company: INFO
     org.springframework.web: WARN
     javax.management: OFF
     sun.rmi: OFF

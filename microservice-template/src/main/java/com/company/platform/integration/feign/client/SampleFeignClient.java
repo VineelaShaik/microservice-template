@@ -14,3 +14,4 @@ public interface SampleFeignClient {
     @GetMapping("/api/sample/{id}")
     String getSample(@PathVariable String id);
 }
+

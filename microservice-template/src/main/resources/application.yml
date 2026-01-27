@@ -1,25 +1,31 @@
 spring:
   application:
     name: microservice-template
+
   profiles:
     active: dev
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
+      - org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration
+
   jmx:
     enabled: false
+
   sql:
     init:
       mode: never
-  datasource:
-    url: ${DB_URL:}
-    username: ${DB_USERNAME:}
-    password: ${DB_PASSWORD:}
-    driver-class-name: ${DB_DRIVER:}
 
   jpa:
     hibernate:
       ddl-auto: none
     open-in-view: false
 
-
+  rabbitmq:
+    listener:
+      simple:
+        auto-startup: false
 
 server:
   port: 8080
@@ -33,18 +39,44 @@ management:
   endpoint:
     health:
       show-details: never
+
+  health:
+    rabbit:
+      enabled: false
+
 logging:
   level:
     root: INFO
-    '[org.springframework.boot.autoconfigure]': INFO
-    javax.management: OFF
-    sun.rmi: OFF
-    org.springframework.boot.actuate.endpoint.jmx: OFF
-jmx:
-    enabled: false
+
+    # your code
+    com.company: INFO
+
+    # Spring framework noise
+    org.springframework: WARN
+    org.springframework.boot.autoconfigure: WARN
+    org.springframework.context: WARN
+    org.springframework.web: WARN
+
+    # Security
+    org.springframework.security: WARN
+
+    # Hibernate / JPA
+    org.hibernate: WARN
+    org.hibernate.validator: WARN
+
+    # Messaging
+    org.springframework.amqp: WARN
+
+    # Actuator
+    org.springframework.boot.actuate: WARN
+
+    # Tomcat
+    org.apache.catalina: WARN
+    org.apache.coyote: WARN
+
 sample:
   service:
-    url: http://localhost:9999  
+    url: http://localhost:9999
 
 feign:
   client:
@@ -53,3 +85,6 @@ feign:
         connectTimeout: 3000
         readTimeout: 5000
         loggerLevel: BASIC
+
+rabbitmq:
+  enabled: false
