@@ -6,7 +6,7 @@ A **Spring Boot microservice template** designed to quickly bootstrap new backen
 
 ---
 
-## Purpose
+## 1.Purpose
 
 This template provides a **standardized foundation** for building Spring Boot microservices by implementing common **cross-cutting concerns upfront**, allowing teams to focus only on **business logic**.
 
@@ -117,7 +117,7 @@ Simply enabling a feature flag is **not sufficient**.
 
 ---
 
-### 6.1 REST APIs (Always Used)
+### 6.1 REST APIs 
 
 Create controllers that expose APIs and delegate all logic to the service layer.
 
