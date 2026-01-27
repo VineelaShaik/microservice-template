@@ -11,6 +11,7 @@ logging:
   level:
     com.company: DEBUG
     org.springframework.web: DEBUG
+    com.company.platform: DEBUG
     javax.management: OFF
     sun.rmi: OFF
     org.springframework.boot.actuate.endpoint.jmx: OFF

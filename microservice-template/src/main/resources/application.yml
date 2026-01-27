@@ -48,29 +48,27 @@ logging:
   level:
     root: INFO
 
-    # your code
+
     com.company: INFO
 
-    # Spring framework noise
+
     org.springframework: WARN
     org.springframework.boot.autoconfigure: WARN
     org.springframework.context: WARN
     org.springframework.web: WARN
 
-    # Security
+
     org.springframework.security: WARN
 
-    # Hibernate / JPA
+
     org.hibernate: WARN
     org.hibernate.validator: WARN
 
-    # Messaging
     org.springframework.amqp: WARN
 
-    # Actuator
+
     org.springframework.boot.actuate: WARN
 
-    # Tomcat
     org.apache.catalina: WARN
     org.apache.coyote: WARN
 
