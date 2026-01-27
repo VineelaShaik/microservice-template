@@ -26,6 +26,7 @@ It is built to ensure:
 - Request / response logging
 - Actuator health checks
 - Profile-based configuration
+- Correlation ID & request tracing
 - Clean layered architecture
 
 ### Optional Infrastructure Features
