@@ -98,7 +98,7 @@ Each microservice must have a unique application name.
 Run the application **without enabling any optional infrastructure** using the following command:
 
 ```
-mvn spring-boot:run -Dspring.profiles.active=dev
+.\mvnw.cmd "-Dspring.profiles.active=dev" spring-boot:run
 ```
 Verify the application is running correctly by calling the health endpoint:
 
