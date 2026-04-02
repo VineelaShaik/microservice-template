@@ -1,63 +1,34 @@
-2026-01-23 09:48:04 DEBUG [http-nio-8080-exec-2] [] o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
-java.io.EOFException: null
-	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1288)
-	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1176)
-	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
-	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-2026-01-23 09:48:04 DEBUG [http-nio-8080-exec-2] [] o.a.coyote.http11.Http11Processor - Error state [CLOSE_CONNECTION_NOW] reported while processing request
-java.io.EOFException: null
-	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1288)
-	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1176)
-	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
-	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-2026-01-23 09:48:04 DEBUG [http-nio-8080-exec-1] [] o.a.c.a.jaspic.AuthConfigFactoryImpl - Loading persistent provider registrations from [C:\Users\vineela.shaik\AppData\Local\Temp\tomcat.8080.17951099312844578851\conf\jaspic-providers.xml]
-2026-01-23 09:48:04 INFO  [http-nio-8080-exec-1] [] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-23 09:48:04 INFO  [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2026-01-23 09:48:04 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-2026-01-23 09:48:04 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
-2026-01-23 09:48:04 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
-2026-01-23 09:48:04 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@68c4a860
-2026-01-23 09:48:04 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7b2e931
-2026-01-23 09:48:04 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-01-23 09:48:04 INFO  [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Completed initialization in 266 ms
-2026-01-23 09:48:05 DEBUG [http-nio-8080-exec-1] [] o.s.security.web.FilterChainProxy - Securing GET /api/error
-2026-01-23 09:48:05 DEBUG [http-nio-8080-exec-1] [] o.s.security.web.FilterChainProxy - Secured GET /api/error
-2026-01-23 09:48:05 DEBUG [http-nio-8080-exec-1] [3edd9583-d3fd-41bc-a4c1-5ff7702df26a] o.s.web.servlet.DispatcherServlet - GET "/api/error", parameters={}
-2026-01-23 09:48:05 DEBUG [http-nio-8080-exec-1] [3edd9583-d3fd-41bc-a4c1-5ff7702df26a] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.platform.controller.TestController#error()
-2026-01-23 09:48:05 DEBUG [http-nio-8080-exec-1] [3edd9583-d3fd-41bc-a4c1-5ff7702df26a] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.company.platform.exception.GlobalExceptionHandler#handleApiException(ApiException, HttpServletRequest)
-2026-01-23 09:48:05 DEBUG [http-nio-8080-exec-1] [3edd9583-d3fd-41bc-a4c1-5ff7702df26a] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-23 09:48:05 DEBUG [http-nio-8080-exec-1] [3edd9583-d3fd-41bc-a4c1-5ff7702df26a] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.company.platform.exception.ErrorResponse@64ae224]
-2026-01-23 09:48:05 DEBUG [http-nio-8080-exec-1] [3edd9583-d3fd-41bc-a4c1-5ff7702df26a] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.company.platform.exception.ApiException: Something went wrong]
-2026-01-23 09:48:05 DEBUG [http-nio-8080-exec-1] [3edd9583-d3fd-41bc-a4c1-5ff7702df26a] o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5aabbb29, started on Thu Jan 22 16:51:56 IST 2026
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147482623
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147481599
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Successfully stopped bean 'refreshScopeLifecycle'
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase -2147483647
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2026-01-23 11:03:29 DEBUG [SpringApplicationShutdownHook] [] o.s.b.f.s.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'simpleMeterRegistry' completed
+2026-03-31 11:51:44 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 20756 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-03-31 11:51:44 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-03-31 11:51:44 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-03-31 11:51:46 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-03-31 11:51:46 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-03-31 11:51:47 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-03-31 11:51:47 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-31 11:51:47 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-31 11:51:47 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-31 11:51:48 WARN  [main] [] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-31 11:51:48 ERROR [main] [] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-03-31 11:52:37 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 20324 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-03-31 11:52:37 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-03-31 11:52:37 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-03-31 11:52:39 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-03-31 11:52:39 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-03-31 11:52:40 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-03-31 11:52:40 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-31 11:52:40 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-31 11:52:40 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-31 11:52:41 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 4.096 seconds (process running for 4.902)

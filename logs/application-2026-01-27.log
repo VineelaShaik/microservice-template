@@ -1,0 +1,126 @@
+2026-01-27 10:23:16 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 22384 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-01-27 10:23:16 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-27 10:23:16 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-01-27 10:23:20 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-27 10:23:20 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-01-27 10:23:20 WARN  [main] [] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6b18e4e5-e3e9-4cd0-92f5-0bbd2559754e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-01-27 10:23:20 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-01-27 10:23:20 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-27 10:23:21 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-27 10:23:21 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-27 10:23:23 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 8.006 seconds (process running for 10.054)
+2026-01-27 10:23:23 INFO  [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-27 10:23:23 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-01-27 10:23:23 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-01-27 10:23:23 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-01-27 10:23:23 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5a8b42a3
+2026-01-27 10:23:23 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4746fb8c
+2026-01-27 10:23:23 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-01-27 10:23:23 INFO  [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2026-01-27 10:31:42 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 17768 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-01-27 10:31:42 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-27 10:31:42 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-01-27 10:31:46 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-27 10:31:46 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-01-27 10:31:46 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-01-27 10:31:46 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-27 10:31:47 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-27 10:31:47 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-27 10:31:48 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 7.338 seconds (process running for 10.589)
+2026-01-27 10:31:49 INFO  [RMI TCP Connection(2)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-27 10:31:49 DEBUG [RMI TCP Connection(2)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-01-27 10:31:49 DEBUG [RMI TCP Connection(2)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-01-27 10:31:49 DEBUG [RMI TCP Connection(2)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-01-27 10:31:49 DEBUG [RMI TCP Connection(2)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@588d630d
+2026-01-27 10:31:49 DEBUG [RMI TCP Connection(2)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4ab455e2
+2026-01-27 10:31:49 DEBUG [RMI TCP Connection(2)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-01-27 10:31:49 INFO  [RMI TCP Connection(2)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-01-27 10:40:47 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 21564 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-01-27 10:40:47 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-27 10:40:47 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-01-27 10:40:54 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-27 10:40:54 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-01-27 10:40:55 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-01-27 10:40:55 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-27 10:40:56 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-27 10:40:56 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-27 10:40:59 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 15.546 seconds (process running for 17.073)
+2026-01-27 10:41:30 INFO  [http-nio-8080-exec-4] [] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-27 10:41:30 DEBUG [http-nio-8080-exec-4] [] o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-01-27 10:41:30 DEBUG [http-nio-8080-exec-4] [] o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-01-27 10:41:30 DEBUG [http-nio-8080-exec-4] [] o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-01-27 10:41:30 DEBUG [http-nio-8080-exec-4] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@174e1b99
+2026-01-27 10:41:30 DEBUG [http-nio-8080-exec-4] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1c3d9e28
+2026-01-27 10:41:30 DEBUG [http-nio-8080-exec-4] [] o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-01-27 10:41:30 INFO  [http-nio-8080-exec-4] [] o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2026-01-27 10:41:31 DEBUG [http-nio-8080-exec-4] [aee05b14-e48a-46e6-b967-fa06feac8427] o.s.web.servlet.DispatcherServlet - GET "/api/error", parameters={}
+2026-01-27 10:41:31 DEBUG [http-nio-8080-exec-4] [aee05b14-e48a-46e6-b967-fa06feac8427] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.platform.controller.TestController#error()
+2026-01-27 10:41:31 DEBUG [http-nio-8080-exec-4] [aee05b14-e48a-46e6-b967-fa06feac8427] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.company.platform.exception.GlobalExceptionHandler#handleApiException(ApiException, HttpServletRequest)
+2026-01-27 10:41:31 DEBUG [http-nio-8080-exec-4] [aee05b14-e48a-46e6-b967-fa06feac8427] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-01-27 10:41:31 DEBUG [http-nio-8080-exec-4] [aee05b14-e48a-46e6-b967-fa06feac8427] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.company.platform.exception.ErrorResponse@5a723577]
+2026-01-27 10:41:31 DEBUG [http-nio-8080-exec-4] [aee05b14-e48a-46e6-b967-fa06feac8427] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.company.platform.exception.ApiException: Something went wrong]
+2026-01-27 10:41:31 DEBUG [http-nio-8080-exec-4] [aee05b14-e48a-46e6-b967-fa06feac8427] o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2026-01-27 10:41:44 DEBUG [http-nio-8080-exec-8] [d8a34a00-b31b-4234-8ef0-c521250d85bc] o.s.web.servlet.DispatcherServlet - GET "/actuator/health", parameters={}
+2026-01-27 10:41:44 DEBUG [http-nio-8080-exec-8] [d8a34a00-b31b-4234-8ef0-c521250d85bc] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/octet-stream" to []
+2026-01-27 10:41:44 DEBUG [http-nio-8080-exec-8] [d8a34a00-b31b-4234-8ef0-c521250d85bc] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2026-01-27 10:41:44 DEBUG [http-nio-8080-exec-8] [d8a34a00-b31b-4234-8ef0-c521250d85bc] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [org.springframework.boot.actuate.health.SystemHealth@7444e05b]
+2026-01-27 10:41:44 DEBUG [http-nio-8080-exec-8] [d8a34a00-b31b-4234-8ef0-c521250d85bc] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-01-27 10:41:56 DEBUG [http-nio-8080-exec-1] [ac234239-2692-48fe-a6dc-c19e99fd9da3] o.s.web.servlet.DispatcherServlet - GET "/api/test", parameters={}
+2026-01-27 10:41:56 DEBUG [http-nio-8080-exec-1] [ac234239-2692-48fe-a6dc-c19e99fd9da3] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.platform.controller.TestController#test()
+2026-01-27 10:41:56 INFO  [http-nio-8080-exec-1] [ac234239-2692-48fe-a6dc-c19e99fd9da3] c.c.p.controller.TestController - Test API called
+2026-01-27 10:41:56 DEBUG [http-nio-8080-exec-1] [ac234239-2692-48fe-a6dc-c19e99fd9da3] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-01-27 10:41:56 DEBUG [http-nio-8080-exec-1] [ac234239-2692-48fe-a6dc-c19e99fd9da3] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["JWT OK"]
+2026-01-27 10:41:56 DEBUG [http-nio-8080-exec-1] [ac234239-2692-48fe-a6dc-c19e99fd9da3] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-01-27 11:29:07 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 13700 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-01-27 11:29:07 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-27 11:29:07 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-01-27 11:29:13 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-27 11:29:13 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-01-27 11:29:13 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-01-27 11:29:14 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-27 11:29:15 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-27 11:29:15 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-27 11:29:18 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 15.382 seconds (process running for 20.349)
+2026-01-27 11:40:07 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 12960 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-01-27 11:40:07 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-27 11:40:07 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-01-27 11:40:11 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-27 11:40:11 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-01-27 11:40:11 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-01-27 11:40:12 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-27 11:40:12 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-27 11:40:12 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-27 11:40:13 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 6.98 seconds (process running for 9.135)
+2026-01-27 11:41:31 INFO  [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@299cab08
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@11d1735e
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-01-27 11:41:31 INFO  [http-nio-8080-exec-1] [] o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [378b5922-902e-4995-a591-a4acb285737a] o.s.web.servlet.DispatcherServlet - GET "/actuator/health", parameters={}
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [378b5922-902e-4995-a591-a4acb285737a] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/octet-stream" to []
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [378b5922-902e-4995-a591-a4acb285737a] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2026-01-27 11:41:31 DEBUG [http-nio-8080-exec-1] [378b5922-902e-4995-a591-a4acb285737a] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [org.springframework.boot.actuate.health.SystemHealth@6ece08a]
+2026-01-27 11:41:32 DEBUG [http-nio-8080-exec-1] [378b5922-902e-4995-a591-a4acb285737a] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-01-27 11:44:42 DEBUG [http-nio-8080-exec-5] [500b22a3-59f5-42a1-96dc-690b117e2b58] o.s.web.servlet.DispatcherServlet - GET "/actuator/health", parameters={}
+2026-01-27 11:44:42 DEBUG [http-nio-8080-exec-5] [500b22a3-59f5-42a1-96dc-690b117e2b58] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/octet-stream" to []
+2026-01-27 11:44:42 DEBUG [http-nio-8080-exec-5] [500b22a3-59f5-42a1-96dc-690b117e2b58] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2026-01-27 11:44:42 DEBUG [http-nio-8080-exec-5] [500b22a3-59f5-42a1-96dc-690b117e2b58] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [org.springframework.boot.actuate.health.SystemHealth@96fee67]
+2026-01-27 11:44:42 DEBUG [http-nio-8080-exec-5] [500b22a3-59f5-42a1-96dc-690b117e2b58] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-01-27 12:58:11 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 7392 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-01-27 12:58:11 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-27 12:58:11 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-01-27 12:58:15 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-27 12:58:15 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-01-27 12:58:16 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-01-27 12:58:16 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-27 12:58:17 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-27 12:58:17 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-27 12:58:18 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 8.254 seconds (process running for 9.769)

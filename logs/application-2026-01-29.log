@@ -1,0 +1,46 @@
+2026-01-29 14:09:16 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 6528 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-01-29 14:09:16 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-29 14:09:16 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-01-29 14:09:28 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-29 14:09:28 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-01-29 14:09:29 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-01-29 14:09:29 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-29 14:09:30 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-29 14:09:30 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-29 14:09:31 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 16.587 seconds (process running for 19.36)
+2026-01-29 14:10:04 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 28120 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-01-29 14:10:04 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-29 14:10:04 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-01-29 14:10:08 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-29 14:10:08 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-01-29 14:10:08 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-01-29 14:10:08 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-29 14:10:09 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-29 14:10:09 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-29 14:10:10 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 7.467 seconds (process running for 9.686)
+2026-01-29 14:10:10 INFO  [RMI TCP Connection(1)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-29 14:10:10 DEBUG [RMI TCP Connection(1)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-01-29 14:10:10 DEBUG [RMI TCP Connection(1)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-01-29 14:10:10 DEBUG [RMI TCP Connection(1)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-01-29 14:10:10 DEBUG [RMI TCP Connection(1)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5724c7da
+2026-01-29 14:10:10 DEBUG [RMI TCP Connection(1)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@45b27ad3
+2026-01-29 14:10:10 DEBUG [RMI TCP Connection(1)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-01-29 14:10:10 INFO  [RMI TCP Connection(1)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2026-01-29 14:15:30 INFO  [main] [] c.c.platform.MicroserviceApplication - Starting MicroserviceApplication using Java 17.0.17 with PID 14856 (C:\Users\vineela.shaik\Downloads\microservice-template\microservice-template\target\classes started by vineela.shaik in C:\Users\vineela.shaik\Downloads\microservice-template)
+2026-01-29 14:15:30 DEBUG [main] [] c.c.platform.MicroserviceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-01-29 14:15:30 INFO  [main] [] c.c.platform.MicroserviceApplication - The following 1 profile is active: "dev"
+2026-01-29 14:15:35 DEBUG [main] [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-01-29 14:15:35 DEBUG [main] [] c.c.platform.logging.LoggingFilter - Filter 'loggingFilter' configured for use
+2026-01-29 14:15:35 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+2026-01-29 14:15:35 DEBUG [main] [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-29 14:15:36 DEBUG [main] [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-29 14:15:36 DEBUG [main] [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-29 14:15:37 INFO  [main] [] c.c.platform.MicroserviceApplication - Started MicroserviceApplication in 8.471 seconds (process running for 11.221)
+2026-01-29 14:15:38 INFO  [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-29 14:15:38 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-01-29 14:15:38 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-01-29 14:15:38 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-01-29 14:15:38 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@b267745
+2026-01-29 14:15:38 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@294c44b7
+2026-01-29 14:15:38 DEBUG [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-01-29 14:15:38 INFO  [RMI TCP Connection(3)-10.40.158.211] [] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
